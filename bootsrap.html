@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasargod</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .bg-green {
+            background-color: #28a745; 
+        }
+        .text-green {
+            color: #28a745;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kasargod</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#food">Best Food Spots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#travel">Travel Spots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-green text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Kasargod</h1>
+            <p class="lead">Explore the beauty of Kasargod,delicious food, and rich culture.</p>
+            
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-green">About Kasargod</h2>
+            <p class="text-center">Kasargod is a coastal city in the northern part of Kerala, known for its stunning beaches, rich history, and diverse culture. It is a paradise for nature lovers and adventure enthusiasts.</p>
+        </div>
+    </section>
+
+    <!-- Food Spots Section -->
+    <section id="food" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center text-green">Best Food Spots</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="./images/seafood.jpg" class="card-img-top" alt="Restaurant 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ocean Restaurant</h5>
+                            <p class="card-text">Enjoy authentic local dishes and seafood.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="./images/kerlacusine.avif" class="card-img-top" alt="Restaurant 2">
+                        <div class="card-body">
+                            <h5 class="card-title">oryx Restaurant</h5>
+                            <p class="card-text">A cozy spot for traditional Kerala cuisine.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="./images/biryani.avif" class="card-img-top" alt="Restaurant 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Viceroy Restaurant</h5>
+                            <p class="card-text">Famous for its delicious biryani and snacks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Spots Section -->
+    <section id="travel" class="bg-green text-white py-5">
+        <div class="container">
+            <h2 class="text-center">Travel Spots</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 bg-light text-dark">
+                        <img src="./images/Best_preserved_fort_in_Kerala_The_Bekal_2264.jpg" class="card-img-top" alt="Attraction 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Bekal fort</h5>
+                            <p class="card-text">Bekal Fort is a medieval fort built by Shivappa Nayaka of Keladi in 1650 AD, at Bekal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 bg-light text-dark">
+                        <img src="./images/ranipuram.jpeg" class="card-img-top" alt="Attraction 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ranipuram</h5>
+                            <p class="card-text">A must-visit historical site in Kasargod.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 bg-light text-dark">
+                        <img src="./images/chandragiri_fort.jpg" class="card-img-top" alt="Attraction 3">
+                        <div class="card-body">
+                            <h5 class="card-title">chandragiri fort</h5>
+                            <p class="card-text">Enjoy breathtaking views and nature trails.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-green">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-green">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Kerala Tourism. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

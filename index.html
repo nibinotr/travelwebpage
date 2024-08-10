@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelwebpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="top-container">
+        <ul class="topbtn">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Districts</a></li>
+            <li><a href="#">About us</a></li>
+            <li class="login"><button><a href="#">Login</a></button></li>
+            <li class="sign"><button><a href="#">Sign up</a></button></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="heading"> 
+            <div class="logo"><img src="./images/logokerala.png" alt="Kerala Logo"></div>
+            <h1>COME AND ENJOY <br>OUR CULTURE</h1>
+            <a href="#" class="bttn1">Learn more</a>
+            <a href="#" class="bttn2">Contact us</a>
+        </div>
+    </header>
+
+    <!-- Top Destinations -->
+    <section>
+        <div class="topdstn">
+            <h1>Top Destinations</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="topdestinations">
+            <div>
+                <h1>Athirappilly</h1>
+                <div class="line-a"></div>
+                <img src="./images/downloadtravel.jpeg" alt="Athirappilly">
+            </div>
+            <div>
+                <h1>Kovalam Beach</h1>
+                <div class="line-b"></div>
+                <img src="./images/kovalam.jpeg" alt="Kovalam Beach">
+            </div>
+            <div>
+                <h1>Bekal Fort</h1>
+                <div class="line-c"></div>
+                <img src="./images/tripkl.jpeg" alt="Bekal Fort">
+            </div>
+            <div>
+                <h1>Edakkal Cave</h1>
+                <div class="line-d"></div>
+                <img src="./images/tourkl.jpeg" alt="Edakkal Cave">
+            </div>
+        </div>
+
+        <button class="seemore">See more</button>
+    </section>
+
+    <!-- About Kerala -->
+    <section>
+        <div class="aboutk">
+            <h1>About kerala</h1>
+            <div class="line-e"></div>
+        </div>
+        <div class="map">
+            <img class="mapimg" src="./images/KLmap.png" alt="Kerala Map">
+            <p> <p>Kerala, often referred to as "God's Own Country," is a verdant paradise
+                nestled in the southwestern tip of India, renowned for its rich cultural heri
+                tage, diverse landscapes, and vibrant traditions. This enchanting state offers 
+                a myriad of experiences for every kind of traveler. From the tranquil backwater
+                s of Alappuzha, where houseboats meander through intricate networks of canals, 
+                to the pristine beaches of Kovalam and Varkala, Kerala's natural beauty is captivating
+                Kovalam, with itscrescent-shaped beaches and vibrant nightlife, is perfect for those seeking 
+               both relaxation and entertainment. Varkala, with its dramatic cliffs and mineral springs, offers
+                a more tranquil and spiritual atmosphere. The beaches of Marari and Bekal are lesser-known
+                 but equally enchanting, providing pristine stretches of sand and a peaceful environment. 
+                 Each beach has its own unique charm, whether it's the bustling shores of Fort Kochi 
+                 with its colonial history or the serene sands of Kannur.
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos nesciunt, architecto perferendis r
+                 epudiandae ducimus deserunt rerum earum, temporibus
+                  consequatur eveniet, aliquid beatae iure sapiente eligendi voluptatem reiciendis. Rem, molestiae minus.
+               
+               The Western Ghats, a UNESCO World Heritage Site, are another jewel in Kerala's tourism crown
+               . This mountain range runs parallel to the western coast and is home to some of the most sceni
+               c hill stations in India. Munnar, located at an altitude of around 1,600 meters, is renowned for
+               
+              mythical King Mahabali and is celebrated with grand feasts (Onam Sadya), intricate flower carpets 
+              (Pookalam), traditional games, and boat races. Thrissur Pooram, another major festival, is renowned
+               for its spectacular elephant processions, traditional percussion ensembles, and magnificent 
+               fireworks display. The festival, held at the Vadakkunnathan Temple in Thrissur, is a dazzling
+                showcase of Kerala's rich cultural heritage. </p></p>
+        </div>
+    </section>
+
+    <!-- Our Districts -->
+    <section class="ourdist">
+        <h1>Our districts</h1>
+        <div class="line-f"></div>
+        <div class="ourdistricts">
+            <div class="district"><img src="./images/kasarkod.webp" alt="Kasargod"><h1><a href="http://127.0.0.1:5500/bootsrap.html">kasargod</a></h1></div>
+            <div class="district"><img src="./images/kannur.jpeg" alt="Kannur"><h1>Kannur</h1></div>
+            <div class="district"><img src="./images/kozhikod.jpg" alt="Kozhikode"><h1>Kozhikode</h1></div>
+            <div class="district"><img src="./images/wayanad.jpeg" alt="Wayanad"><h1>Wayanad</h1></div>
+            <div class="district"><img src="./images/malappuram.jpeg" alt="Malappuram"><h1>Malappuram</h1></div>
+            <div class="district"><img src="./images/palakkad.jpeg" alt="Palakkad"><h1>Palakkad</h1></div>
+        </div>
+        <button class="seemore">See more</button>
+    </section>
+
+    <!-- Enquiry Form -->
+    <section class="formcontainer">
+        <form class="enquiryform">
+            <h2>ENQUIRY FOR BOOKING</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="district">Select the District</label>
+            <select id="district" name="district" required>
+                <option value="" disabled selected>Select the District</option>
+                <option value="district1">Kasargod</option>
+                <option value="district2">Kannur </option>
+                <option value="district3">Kozhikode</option>
+                <option value="district3">Wayanad</option>
+                <option value="district3">Malappuram</option>
+                <option value="district3">Palakkad</option>
+            </select>
+            <button  type="submit">SUBMIT</button>
+        </form>
+    </section>
+</body>
+</html>

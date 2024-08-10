@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container {
+    background: #333;
+}
+
+.topbtn {
+    height: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topbtn li {
+    margin: 0 10px;
+}
+
+.topbtn li a {
+    background: none;
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+}
+
+.topbtn .sign a {
+    color: black;
+}
+
+.topbtn .login a {
+    color: black;
+}
+
+header {
+    background: url('images/kerala cover.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.heading h1 {
+    font-size: 2.5em;
+}
+
+.bttn1, .bttn2 {
+    background: #0cb9a2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.topdstn, .aboutk, .ourdist {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.topdstn h1, .aboutk h1, .ourdist h1 {
+    font-size: 2em;
+}
+
+.line, .line-a, .line-b, .line-c, .line-d, .line-e, .line-f {
+    width: 15%; 
+    height: 5px;
+    background: black;
+    margin: 10px auto;
+}
+
+.topdestinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.topdestinations div {
+    flex: 1 1 calc(50% - 40px);
+    text-align: center;
+}
+
+.topdestinations img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover; 
+}
+
+.seemore {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #0cb9a2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.aboutk h1 {
+    text-align: center;
+}
+
+.map {
+    overflow: hidden; 
+}
+
+.mapimg {
+    float: right;
+    margin: 0 0 20px 20px;
+    border: solid 5px #333;
+}
+
+.text {
+    overflow: hidden; 
+}
+
+.text p {
+    text-align: justify;
+}
+
+.ourdist {
+    padding: 20px;
+}
+
+.ourdistricts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.district {
+    text-align: center; 
+}
+
+.district img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.seemore {
+    margin-top: 20px; 
+}
+
+.formcontainer {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.enquiryform {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enquiryform h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.enquiryform label {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.enquiryform input, .enquiryform select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.enquiryform button {
+    background: #0cb9a2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 50px 20px;
+    }
+
+    .heading h1 {
+        font-size: 2em;
+    }
+
+    .bttn1, .bttn2 {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .topdestinations div {
+        flex: 1 1 calc(100% - 40px); 
+    }
+
+    .district img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 30px 20px;
+    }
+
+    .heading h1 {
+        font-size: 1.5em;
+    }
+
+    .bttn1, .bttn2 {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .topdestinations div {
+        flex: 1 1 100%; 
+    }
+
+    .district img {
+        height: 150px;
+        width: 150px;
+    }
+}
